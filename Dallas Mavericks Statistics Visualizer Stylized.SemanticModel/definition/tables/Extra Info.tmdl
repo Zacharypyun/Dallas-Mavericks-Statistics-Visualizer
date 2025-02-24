@@ -1,0 +1,115 @@
+table 'Extra Info'
+	lineageTag: 88befd5c-3aeb-440e-a759-39a07d7a038c
+
+	column PLAYER_NAME
+		dataType: string
+		lineageTag: 6ce92685-67be-4854-9095-0dcf76b69904
+		summarizeBy: none
+		sourceColumn: PLAYER_NAME
+
+		annotation SummarizationSetBy = Automatic
+
+	column HEIGHT/WEIGHT
+		dataType: string
+		lineageTag: 37b553c5-edba-4237-96c6-587cd69e56b9
+		summarizeBy: none
+		sourceColumn: HEIGHT/WEIGHT
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMBER
+		dataType: int64
+		formatString: 0
+		lineageTag: 09a7d835-4c63-4a8e-89cb-e191bbe90fae
+		summarizeBy: sum
+		sourceColumn: NUMBER
+
+		annotation SummarizationSetBy = Automatic
+
+	column BIRTHPLACE
+		dataType: string
+		lineageTag: 031856df-9350-48e1-a725-0ce26e849a06
+		summarizeBy: none
+		sourceColumn: BIRTHPLACE
+
+		annotation SummarizationSetBy = Automatic
+
+	column COLLEGE
+		dataType: string
+		lineageTag: bf742387-f520-40a9-91ef-cbfebbe5c561
+		summarizeBy: none
+		sourceColumn: COLLEGE
+
+		annotation SummarizationSetBy = Automatic
+
+	column POSITION
+		dataType: string
+		lineageTag: 4d0ce0e4-ff1a-4584-b07d-4a449561309b
+		summarizeBy: none
+		sourceColumn: POSITION
+
+		annotation SummarizationSetBy = Automatic
+
+	column BIRTHDATE
+		dataType: string
+		lineageTag: e7c0b633-39f7-4411-bab3-230357f58a9d
+		summarizeBy: none
+		sourceColumn: BIRTHDATE
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+	column DRAFT_INFO
+		dataType: string
+		lineageTag: 8118081b-551d-411e-a36f-7fbe54b100fa
+		summarizeBy: none
+		sourceColumn: DRAFT_INFO
+
+		annotation SummarizationSetBy = Automatic
+
+	column HIGHLIGHT_URL
+		dataType: string
+		lineageTag: f38336c1-eb6b-4b71-8632-7ef3a1a8ec37
+		summarizeBy: none
+		sourceColumn: HIGHLIGHT_URL
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column1
+		dataType: string
+		lineageTag: 8f01fab1-be70-4ac7-b6a0-f36e7839d863
+		summarizeBy: none
+		sourceColumn: Column1
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column2
+		dataType: string
+		lineageTag: e4b1f9eb-ae90-40a5-a651-9bf766549a81
+		summarizeBy: none
+		sourceColumn: Column2
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column3
+		dataType: string
+		lineageTag: 20d15c4d-aeaa-4d55-a92c-3e3d7cde0e81
+		summarizeBy: none
+		sourceColumn: Column3
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Extra Info' = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("nZZ9b9o6FIe/itW/WZuE9ytNE4VCoYQyYO12t2lyEkM8jA2OTRo+/T1OoEBypwtXotQKlfFzfuc87vfvNx3MKWGoh+dzIYOb0k3th7Ysp25bP25KyKlVEfMieOzY8PbAUEdIHIgSaskl5hE2H50s24QrImHx7CvhEYnsErKbzYbZwLKbaCI0D5CDxtRforJ5HCq1jv66u4vj+DYRWmmP3PpidRdj5Yefth+7s9GrN1Oth5GbHqyGvV9+iDkn7GMHM4YjF2+JhP3M9+9fP0spmCLo4U2vjlDVlMk+MFnw4xLmCS05ASQdKYkZxYbpsOaozyNFlYbNxBxN10Iq+HwsKFeop3Fas4FmCbLLKWs1Y63sWe2MtXoBquwLq93psF15eSUqkQS+Y0i3BM7R78Pz+j7FFLhsHUI0Jw8pwwFh65DiEhoTzqOEbaELDHZHL8lpjF3iSWAEOAf2saxKCueUz+Fs5wK6+sOQ6tFO2KNFgW503yoQGU40EJxEaCBvjxnWsgwPSFVT2XZIIjhwAefLaPgCv6YrqB7qChlncR2pqmlkdfOnPJB4rkhwAYofRGJSX+/UqnJlUDFdhAqNRUwYK8xa5cBkzjMTUnAFg9bGHAcGZqow38/oez5p4zlWSmGfN95+yCqXdN6MPz453mDsTorZ9LnSVFHBH4VYR7NYnCMNoJc4eoTCJkegsuGxm4c5MyfrECUFVSXkUj+kC8zhWe/DkOCFJqi/4FSZxpuGQijKF+eTVU17z8l6z8lJpH4B30Tef5ODz3hWbV0X2EBEIepJQnheItYhLCOxaRJwkuQMIulOcPwv7TcSW7JK5VhLN7IyMCs3VJfYsbxptVfNdvtbfKUdnxJJoe5yC8U+ojm53Ow/C3JvikJgLpZ+CMpJWzKLzLZzZBeANWiNsa/221dVBCvYYqiXGC4m7lP/yFI/V1/d9Mnwt/bYbxioEpoySCGzxIRghlwcSBoUzP6uCqeREjUzosY5UfkCIhI0njd/V1vWrvHfRC5+o+iJES+d8j9oomLK+6rlztNyUUI9IjlemSm8xwmskas5zFqKFEO3HRtwgHnG1HxP6Rr9/Uo2Sa1bfdn1Hq61xTOjW0rkB+Aj3CdoLEW0PmVsnKeWDoELIpSQUQl91lARP+uyjSYqdUaBziijfKqM3HXlVC6A7L90gkm3Nbmf+NdCjm8Ht+gVRyHMhRIn5si1pGPUPBSaRlvKGMzXE2hd+0sT4ckyz9fSC5jDw4jl/rW65kYejOrzVrDcNJ34OnnM6Co1Po5xcn457934LhCjthbDKxJgc5MxChdYNnQn10Dej5lCjByPCvk/Ec7G20pvHe/YpnhNQwNiF6oOIdZTzR3wfv4D", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [PLAYER_NAME = _t, #"HEIGHT/WEIGHT" = _t, NUMBER = _t, BIRTHPLACE = _t, COLLEGE = _t, POSITION = _t, BIRTHDATE = _t, DRAFT_INFO = _t, HIGHLIGHT_URL = _t, Column1 = _t, Column2 = _t, Column3 = _t]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"PLAYER_NAME", type text}, {"HEIGHT/WEIGHT", type text}, {"NUMBER", Int64.Type}, {"BIRTHPLACE", type text}, {"COLLEGE", type text}, {"POSITION", type text}, {"BIRTHDATE", type date}, {"DRAFT_INFO", type text}, {"HIGHLIGHT_URL", type text}, {"Column1", type text}, {"Column2", type text}, {"Column3", type text}})
+				in
+				    #"Changed Type"
+
+	changedProperty = Name
+
+	annotation PBI_ResultType = Table
+

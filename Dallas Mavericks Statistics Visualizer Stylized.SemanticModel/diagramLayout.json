@@ -48,12 +48,24 @@
         {
           "location": {
             "x": 852,
-            "y": 86
+            "y": 0
           },
-          "nodeIndex": "Table (2)",
-          "nodeLineageTag": "e9c123ad-9847-45f4-97f0-f75e02d78d2d",
+          "nodeIndex": "Extra Info",
           "size": {
-            "height": 128,
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1136,
+            "y": 74
+          },
+          "nodeIndex": "Shot charts",
+          "nodeLineageTag": "b4164718-1551-4b0a-9db9-0500e51b7586",
+          "size": {
+            "height": 152,
             "width": 234
           },
           "zIndex": 0

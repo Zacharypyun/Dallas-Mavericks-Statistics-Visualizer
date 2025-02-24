@@ -10,14 +10,15 @@ annotation __PBI_TimeIntelligenceEnabled = 1
 
 annotation PBIDesktopVersion = 2.140.1078.0 (25.02)+2cce24fb16e8b71ba835921d23e7ffc1fab909df
 
-annotation PBI_QueryOrder = ["Playoffs","Regular Season","Table","Table (2)"]
+annotation PBI_QueryOrder = ["Playoffs","Regular Season","Table","Extra Info","Shot charts"]
 
 annotation PBI_ProTooling = ["DevMode"]
 
 ref table Playoffs
 ref table 'Regular Season'
 ref table Table
-ref table 'Table (2)'
+ref table 'Extra Info'
+ref table 'Shot charts'
 
 ref cultureInfo en-US
 

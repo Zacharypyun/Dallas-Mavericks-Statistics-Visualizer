@@ -2,8 +2,5200 @@ cultureInfo en-US
 
 	linguisticMetadata =
 			{
-			  "Version": "1.0.0",
-			  "Language": "en-US"
+			  "Version": "3.5.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "playoff": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Playoffs"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "playoff": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tiebreaker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "competition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "final": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "semifinal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "quarterfinal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "contest": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "game": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "match": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "final tournament": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "playoff.player_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Playoffs",
+			          "ConceptualProperty": "PLAYER_NAME"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "player name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PLAYER_NAME": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "player": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "player nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "player title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "player label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "player tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "actor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "performer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "entertainer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "trouper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "thespian": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "play-actor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "playoff.location": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Playoffs",
+			          "ConceptualProperty": "LOCATION"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "location": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "locality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "placement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "scene": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "venue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "address": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "place": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "setting": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "spot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "playoff.MIN_x": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Playoffs",
+			          "ConceptualProperty": "MIN_x"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "MIN x": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MIN_x": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "x": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "minimum x": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "playoff.fg_pct": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Playoffs",
+			          "ConceptualProperty": "FG_PCT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fg pct": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FG_PCT": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "playoff.fg_3_pct": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Playoffs",
+			          "ConceptualProperty": "FG3_PCT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fg 3 pct": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FG3_PCT": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "playoff.ft_pct": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Playoffs",
+			          "ConceptualProperty": "FT_PCT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ft pct": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FT_PCT": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "playoff.reb": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Playoffs",
+			          "ConceptualProperty": "REB"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "reb": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "playoff.ast": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Playoffs",
+			          "ConceptualProperty": "AST"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ast": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "playoff.tov": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Playoffs",
+			          "ConceptualProperty": "TOV"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tov": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "playoff.STL_x": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Playoffs",
+			          "ConceptualProperty": "STL_x"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "STL x": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "STL_x": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "x": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "playoff.BLK_x": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Playoffs",
+			          "ConceptualProperty": "BLK_x"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "BLK x": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "BLK_x": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "x": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "playoff.pf": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Playoffs",
+			          "ConceptualProperty": "PF"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pf": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "playoff.pt": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Playoffs",
+			          "ConceptualProperty": "PTS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pt": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "playoff.plus_minus": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Playoffs",
+			          "ConceptualProperty": "PLUS_MINUS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "plus minus": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PLUS_MINUS": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "minus": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "plus detriment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "plus hindrance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "plus drawback": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "plus demerit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "detriment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "hindrance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "drawback": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "demerit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "plus disadvantage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "plus handicap": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "playoff.efficiency": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Playoffs",
+			          "ConceptualProperty": "Efficiency"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "efficiency": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "competence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "efficacy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "effectiveness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "productivity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "proficiency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "adeptness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "playoff.headshot_url": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Playoffs",
+			          "ConceptualProperty": "HEADSHOT_URL"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "headshot url": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "HEADSHOT_URL": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "url": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "headshot website": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "website": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "headshot site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "headshot web address": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.589
+			          }
+			        },
+			        {
+			          "web address": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.571
+			          }
+			        }
+			      ]
+			    },
+			    "playoff.position": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Playoffs",
+			          "ConceptualProperty": "POSITION"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "position": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "situation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "place": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "spot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "point": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "station": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "opinion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "policy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "stance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "perception": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "regular_season": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regular Season"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "regular season": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "season": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "regular period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "regular term": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "regular spell": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "term": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "spell": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "regular_season.player_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regular Season",
+			          "ConceptualProperty": "PLAYER_NAME"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "player name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PLAYER_NAME": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "player": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "player nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "player title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "player label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "player tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "actor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "performer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "entertainer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "trouper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "thespian": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "play-actor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "regular_season.location": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regular Season",
+			          "ConceptualProperty": "LOCATION"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "location": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "locality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "placement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "scene": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "venue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "address": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "place": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "setting": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "spot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "regular_season.MIN_x": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regular Season",
+			          "ConceptualProperty": "MIN_x"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "MIN x": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MIN_x": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "x": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "minimum x": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "regular_season.fg_pct": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regular Season",
+			          "ConceptualProperty": "FG_PCT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fg pct": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FG_PCT": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "regular_season.fg_3_pct": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regular Season",
+			          "ConceptualProperty": "FG3_PCT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fg 3 pct": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FG3_PCT": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "regular_season.ft_pct": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regular Season",
+			          "ConceptualProperty": "FT_PCT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ft pct": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FT_PCT": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "regular_season.reb": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regular Season",
+			          "ConceptualProperty": "REB"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "reb": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "regular_season.ast": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regular Season",
+			          "ConceptualProperty": "AST"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ast": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "regular_season.tov": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regular Season",
+			          "ConceptualProperty": "TOV"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tov": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "regular_season.STL_x": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regular Season",
+			          "ConceptualProperty": "STL_x"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "STL x": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "STL_x": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "x": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "regular_season.BLK_x": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regular Season",
+			          "ConceptualProperty": "BLK_x"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "BLK x": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "BLK_x": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "x": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "regular_season.pf": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regular Season",
+			          "ConceptualProperty": "PF"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pf": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "regular_season.pt": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regular Season",
+			          "ConceptualProperty": "PTS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pt": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "regular_season.plus_minus": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regular Season",
+			          "ConceptualProperty": "PLUS_MINUS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "plus minus": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PLUS_MINUS": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "minus": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "plus detriment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "plus hindrance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "plus drawback": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "plus demerit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "detriment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "hindrance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "drawback": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "demerit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "plus disadvantage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "plus handicap": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "regular_season.efficiency": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regular Season",
+			          "ConceptualProperty": "Efficiency"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "efficiency": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "competence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "efficacy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "effectiveness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "productivity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "proficiency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "adeptness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "regular_season.headshot_url": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regular Season",
+			          "ConceptualProperty": "HEADSHOT_URL"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "headshot url": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "HEADSHOT_URL": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "url": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "headshot website": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "website": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "headshot site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "headshot web address": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.589
+			          }
+			        },
+			        {
+			          "web address": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.571
+			          }
+			        }
+			      ]
+			    },
+			    "regular_season.position": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regular Season",
+			          "ConceptualProperty": "POSITION"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "position": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "situation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "place": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "spot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "point": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "station": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "opinion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "policy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "stance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "perception": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "table": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Table"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "table": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tabletop": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "bench": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "board": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "counter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "slab": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "desk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "table top": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "spreadsheet": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "table.player_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Table",
+			          "ConceptualProperty": "PLAYER_NAME"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "player name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PLAYER_NAME": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "player": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "player nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "player title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "player label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "player tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "actor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "performer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "entertainer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "trouper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "thespian": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "play-actor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "extra_info": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Extra Info"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "extra info": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "info": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "extra information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "extra data": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "data": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "extra gen": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "gen": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "extra news": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "extra intelligence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "extra knowledge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "news": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "extra_info.player_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Extra Info",
+			          "ConceptualProperty": "PLAYER_NAME"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "player name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PLAYER_NAME": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "player": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "player nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "player title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "player label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "player tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "actor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "performer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "entertainer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "trouper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "thespian": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "play-actor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "Name": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "extra_info.height_weight": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Extra Info",
+			          "ConceptualProperty": "HEIGHT/WEIGHT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "height/weight": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "height": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "height weight": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "weight": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "height/ heaviness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "height/ weightiness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "height heaviness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "height weightiness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "height/ mass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "height/ bulk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "height/ heft": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "tallness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "stature": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "heaviness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "extra_info.number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Extra Info",
+			          "ConceptualProperty": "NUMBER"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "number": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "extra_info.birthplace": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Extra Info",
+			          "ConceptualProperty": "BIRTHPLACE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "birthplace": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "origin": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "hometown": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "homeland": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "source": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "home": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "extra_info.college": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Extra Info",
+			          "ConceptualProperty": "COLLEGE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "college": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "academy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "seminary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "institution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "school": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "university": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "College/Pro Team": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "extra_info.position": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Extra Info",
+			          "ConceptualProperty": "POSITION"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "position": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "situation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "place": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "spot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "point": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "station": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "opinion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "policy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "stance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "perception": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "extra_info.birthdate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Extra Info",
+			          "ConceptualProperty": "BIRTHDATE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "birthdate": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "birthday": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "anniversary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "extra_info.draft_info": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Extra Info",
+			          "ConceptualProperty": "DRAFT_INFO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "draft info": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DRAFT_INFO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "info": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "draft information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "draft data": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "data": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "draft gen": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "gen": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "draft news": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "draft intelligence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "draft knowledge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "news": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "extra_info.highlight_url": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Extra Info",
+			          "ConceptualProperty": "HIGHLIGHT_URL"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "highlight url": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "HIGHLIGHT_URL": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "url": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "highlight website": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "website": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "highlight site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "highlight web address": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.589
+			          }
+			        },
+			        {
+			          "web address": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.571
+			          }
+			        }
+			      ]
+			    },
+			    "extra_info.column_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Extra Info",
+			          "ConceptualProperty": "Column1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "column 1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "extra_info.column_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Extra Info",
+			          "ConceptualProperty": "Column2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "column 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "extra_info.column_3": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Extra Info",
+			          "ConceptualProperty": "Column3"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "column 3": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column3": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "extra_info_has_column_2": {
+			      "Binding": {
+			        "ConceptualEntity": "Extra Info"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "extra_info": {
+			          "Target": {
+			            "Entity": "extra_info"
+			          }
+			        },
+			        "extra_info.column_2": {
+			          "Target": {
+			            "Entity": "extra_info.column_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "extra_info"
+			            },
+			            "Object": {
+			              "Role": "extra_info.column_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "extra_info_have_column_2"
+			        }
+			      ]
+			    },
+			    "extra_info_has_column_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Extra Info"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "extra_info": {
+			          "Target": {
+			            "Entity": "extra_info"
+			          }
+			        },
+			        "extra_info.column_1": {
+			          "Target": {
+			            "Entity": "extra_info.column_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "extra_info"
+			            },
+			            "Object": {
+			              "Role": "extra_info.column_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "extra_info_have_column_1"
+			        }
+			      ]
+			    },
+			    "extra_info_has_highlight_url": {
+			      "Binding": {
+			        "ConceptualEntity": "Extra Info"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "extra_info": {
+			          "Target": {
+			            "Entity": "extra_info"
+			          }
+			        },
+			        "extra_info.highlight_url": {
+			          "Target": {
+			            "Entity": "extra_info.highlight_url"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "extra_info"
+			            },
+			            "Object": {
+			              "Role": "extra_info.highlight_url"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "extra_info_have_highlight_urls"
+			        }
+			      ]
+			    },
+			    "extra_info_has_draft_info": {
+			      "Binding": {
+			        "ConceptualEntity": "Extra Info"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "extra_info": {
+			          "Target": {
+			            "Entity": "extra_info"
+			          }
+			        },
+			        "extra_info.draft_info": {
+			          "Target": {
+			            "Entity": "extra_info.draft_info"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "extra_info"
+			            },
+			            "Object": {
+			              "Role": "extra_info.draft_info"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "extra_info_have_draft_info"
+			        }
+			      ]
+			    },
+			    "extra_info_has_birthdate": {
+			      "Binding": {
+			        "ConceptualEntity": "Extra Info"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "extra_info": {
+			          "Target": {
+			            "Entity": "extra_info"
+			          }
+			        },
+			        "extra_info.birthdate": {
+			          "Target": {
+			            "Entity": "extra_info.birthdate"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "extra_info"
+			            },
+			            "Object": {
+			              "Role": "extra_info.birthdate"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "extra_info_have_birthdates"
+			        }
+			      ]
+			    },
+			    "extra_info_has_position": {
+			      "Binding": {
+			        "ConceptualEntity": "Extra Info"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "extra_info": {
+			          "Target": {
+			            "Entity": "extra_info"
+			          }
+			        },
+			        "extra_info.position": {
+			          "Target": {
+			            "Entity": "extra_info.position"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "extra_info"
+			            },
+			            "Object": {
+			              "Role": "extra_info.position"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "extra_info_have_positions"
+			        }
+			      ]
+			    },
+			    "extra_info_has_college": {
+			      "Binding": {
+			        "ConceptualEntity": "Extra Info"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "extra_info": {
+			          "Target": {
+			            "Entity": "extra_info"
+			          }
+			        },
+			        "extra_info.college": {
+			          "Target": {
+			            "Entity": "extra_info.college"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "extra_info"
+			            },
+			            "Object": {
+			              "Role": "extra_info.college"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "extra_info_have_colleges"
+			        }
+			      ]
+			    },
+			    "extra_info_has_birthplace": {
+			      "Binding": {
+			        "ConceptualEntity": "Extra Info"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "extra_info": {
+			          "Target": {
+			            "Entity": "extra_info"
+			          }
+			        },
+			        "extra_info.birthplace": {
+			          "Target": {
+			            "Entity": "extra_info.birthplace"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "extra_info"
+			            },
+			            "Object": {
+			              "Role": "extra_info.birthplace"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "extra_info_have_birthplaces"
+			        }
+			      ]
+			    },
+			    "extra_info_has_number": {
+			      "Binding": {
+			        "ConceptualEntity": "Extra Info"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "extra_info": {
+			          "Target": {
+			            "Entity": "extra_info"
+			          }
+			        },
+			        "extra_info.number": {
+			          "Target": {
+			            "Entity": "extra_info.number"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "extra_info"
+			            },
+			            "Object": {
+			              "Role": "extra_info.number"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "extra_info_have_numbers"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "extra_info"
+			            },
+			            "Name": {
+			              "Role": "extra_info.number"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "numbers_are_names_IDs_of_extra_info"
+			        }
+			      ]
+			    },
+			    "extra_info_has_height_weight": {
+			      "Binding": {
+			        "ConceptualEntity": "Extra Info"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "extra_info": {
+			          "Target": {
+			            "Entity": "extra_info"
+			          }
+			        },
+			        "extra_info.height_weight": {
+			          "Target": {
+			            "Entity": "extra_info.height_weight"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "extra_info"
+			            },
+			            "Object": {
+			              "Role": "extra_info.height_weight"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "extra_info_have_height_weights"
+			        }
+			      ]
+			    },
+			    "extra_info_has_player_name": {
+			      "Binding": {
+			        "ConceptualEntity": "Extra Info"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "extra_info": {
+			          "Target": {
+			            "Entity": "extra_info"
+			          }
+			        },
+			        "extra_info.player_name": {
+			          "Target": {
+			            "Entity": "extra_info.player_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "extra_info"
+			            },
+			            "Object": {
+			              "Role": "extra_info.player_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "extra_info_have_player_names"
+			        },
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "extra_info.player_name"
+			            },
+			            "Verbs": [
+			              {
+			                "play": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "extra_info"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.75,
+			          "ID": "player_names_play_extra_info"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "extra_info.player_name"
+			            },
+			            "Object": {
+			              "Role": "extra_info"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "player_names_have_extra_info"
+			        }
+			      ]
+			    },
+			    "table_has_player_name": {
+			      "Binding": {
+			        "ConceptualEntity": "Table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "table": {
+			          "Target": {
+			            "Entity": "table"
+			          }
+			        },
+			        "table.player_name": {
+			          "Target": {
+			            "Entity": "table.player_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "table"
+			            },
+			            "Object": {
+			              "Role": "table.player_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tables_have_player_names"
+			        },
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "table.player_name"
+			            },
+			            "Verbs": [
+			              {
+			                "play": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "table"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.75,
+			          "ID": "player_names_play_tables"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "table.player_name"
+			            },
+			            "Object": {
+			              "Role": "table"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "player_names_have_tables"
+			        }
+			      ]
+			    },
+			    "regular_season_has_position": {
+			      "Binding": {
+			        "ConceptualEntity": "Regular Season"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regular_season": {
+			          "Target": {
+			            "Entity": "regular_season"
+			          }
+			        },
+			        "regular_season.position": {
+			          "Target": {
+			            "Entity": "regular_season.position"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regular_season"
+			            },
+			            "Object": {
+			              "Role": "regular_season.position"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regular_seasons_have_positions"
+			        }
+			      ]
+			    },
+			    "regular_season_has_headshot_url": {
+			      "Binding": {
+			        "ConceptualEntity": "Regular Season"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regular_season": {
+			          "Target": {
+			            "Entity": "regular_season"
+			          }
+			        },
+			        "regular_season.headshot_url": {
+			          "Target": {
+			            "Entity": "regular_season.headshot_url"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regular_season"
+			            },
+			            "Object": {
+			              "Role": "regular_season.headshot_url"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regular_seasons_have_headshot_urls"
+			        }
+			      ]
+			    },
+			    "regular_season_has_efficiency": {
+			      "Binding": {
+			        "ConceptualEntity": "Regular Season"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regular_season": {
+			          "Target": {
+			            "Entity": "regular_season"
+			          }
+			        },
+			        "regular_season.efficiency": {
+			          "Target": {
+			            "Entity": "regular_season.efficiency"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regular_season"
+			            },
+			            "Object": {
+			              "Role": "regular_season.efficiency"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regular_seasons_have_efficiencies"
+			        }
+			      ]
+			    },
+			    "regular_season_has_plus_minus": {
+			      "Binding": {
+			        "ConceptualEntity": "Regular Season"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regular_season": {
+			          "Target": {
+			            "Entity": "regular_season"
+			          }
+			        },
+			        "regular_season.plus_minus": {
+			          "Target": {
+			            "Entity": "regular_season.plus_minus"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regular_season"
+			            },
+			            "Object": {
+			              "Role": "regular_season.plus_minus"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regular_seasons_have_plus_minus"
+			        }
+			      ]
+			    },
+			    "regular_season_has_pt": {
+			      "Binding": {
+			        "ConceptualEntity": "Regular Season"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regular_season": {
+			          "Target": {
+			            "Entity": "regular_season"
+			          }
+			        },
+			        "regular_season.pt": {
+			          "Target": {
+			            "Entity": "regular_season.pt"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regular_season"
+			            },
+			            "Object": {
+			              "Role": "regular_season.pt"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regular_seasons_have_pt"
+			        }
+			      ]
+			    },
+			    "regular_season_has_pf": {
+			      "Binding": {
+			        "ConceptualEntity": "Regular Season"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regular_season": {
+			          "Target": {
+			            "Entity": "regular_season"
+			          }
+			        },
+			        "regular_season.pf": {
+			          "Target": {
+			            "Entity": "regular_season.pf"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regular_season"
+			            },
+			            "Object": {
+			              "Role": "regular_season.pf"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regular_seasons_have_pf"
+			        }
+			      ]
+			    },
+			    "regular_season_has_BLK_x": {
+			      "Binding": {
+			        "ConceptualEntity": "Regular Season"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regular_season": {
+			          "Target": {
+			            "Entity": "regular_season"
+			          }
+			        },
+			        "regular_season.BLK_x": {
+			          "Target": {
+			            "Entity": "regular_season.BLK_x"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regular_season"
+			            },
+			            "Object": {
+			              "Role": "regular_season.BLK_x"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regular_seasons_have_BLK_x"
+			        }
+			      ]
+			    },
+			    "regular_season_has_STL_x": {
+			      "Binding": {
+			        "ConceptualEntity": "Regular Season"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regular_season": {
+			          "Target": {
+			            "Entity": "regular_season"
+			          }
+			        },
+			        "regular_season.STL_x": {
+			          "Target": {
+			            "Entity": "regular_season.STL_x"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regular_season"
+			            },
+			            "Object": {
+			              "Role": "regular_season.STL_x"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regular_seasons_have_STL_x"
+			        }
+			      ]
+			    },
+			    "regular_season_has_tov": {
+			      "Binding": {
+			        "ConceptualEntity": "Regular Season"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regular_season": {
+			          "Target": {
+			            "Entity": "regular_season"
+			          }
+			        },
+			        "regular_season.tov": {
+			          "Target": {
+			            "Entity": "regular_season.tov"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regular_season"
+			            },
+			            "Object": {
+			              "Role": "regular_season.tov"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regular_seasons_have_tovs"
+			        }
+			      ]
+			    },
+			    "regular_season_has_ast": {
+			      "Binding": {
+			        "ConceptualEntity": "Regular Season"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regular_season": {
+			          "Target": {
+			            "Entity": "regular_season"
+			          }
+			        },
+			        "regular_season.ast": {
+			          "Target": {
+			            "Entity": "regular_season.ast"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regular_season"
+			            },
+			            "Object": {
+			              "Role": "regular_season.ast"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regular_seasons_have_ast"
+			        }
+			      ]
+			    },
+			    "regular_season_has_reb": {
+			      "Binding": {
+			        "ConceptualEntity": "Regular Season"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regular_season": {
+			          "Target": {
+			            "Entity": "regular_season"
+			          }
+			        },
+			        "regular_season.reb": {
+			          "Target": {
+			            "Entity": "regular_season.reb"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regular_season"
+			            },
+			            "Object": {
+			              "Role": "regular_season.reb"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regular_seasons_have_rebs"
+			        }
+			      ]
+			    },
+			    "regular_season_has_ft_pct": {
+			      "Binding": {
+			        "ConceptualEntity": "Regular Season"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regular_season": {
+			          "Target": {
+			            "Entity": "regular_season"
+			          }
+			        },
+			        "regular_season.ft_pct": {
+			          "Target": {
+			            "Entity": "regular_season.ft_pct"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regular_season"
+			            },
+			            "Object": {
+			              "Role": "regular_season.ft_pct"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regular_seasons_have_ft_pcts"
+			        }
+			      ]
+			    },
+			    "regular_season_has_fg_3_pct": {
+			      "Binding": {
+			        "ConceptualEntity": "Regular Season"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regular_season": {
+			          "Target": {
+			            "Entity": "regular_season"
+			          }
+			        },
+			        "regular_season.fg_3_pct": {
+			          "Target": {
+			            "Entity": "regular_season.fg_3_pct"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regular_season"
+			            },
+			            "Object": {
+			              "Role": "regular_season.fg_3_pct"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regular_seasons_have_fg_3_pcts"
+			        }
+			      ]
+			    },
+			    "regular_season_has_fg_pct": {
+			      "Binding": {
+			        "ConceptualEntity": "Regular Season"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regular_season": {
+			          "Target": {
+			            "Entity": "regular_season"
+			          }
+			        },
+			        "regular_season.fg_pct": {
+			          "Target": {
+			            "Entity": "regular_season.fg_pct"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regular_season"
+			            },
+			            "Object": {
+			              "Role": "regular_season.fg_pct"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regular_seasons_have_fg_pcts"
+			        }
+			      ]
+			    },
+			    "regular_season_has_MIN_x": {
+			      "Binding": {
+			        "ConceptualEntity": "Regular Season"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regular_season": {
+			          "Target": {
+			            "Entity": "regular_season"
+			          }
+			        },
+			        "regular_season.MIN_x": {
+			          "Target": {
+			            "Entity": "regular_season.MIN_x"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regular_season"
+			            },
+			            "Object": {
+			              "Role": "regular_season.MIN_x"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regular_seasons_have_MIN_x"
+			        }
+			      ]
+			    },
+			    "regular_season_has_location": {
+			      "Binding": {
+			        "ConceptualEntity": "Regular Season"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regular_season": {
+			          "Target": {
+			            "Entity": "regular_season"
+			          }
+			        },
+			        "regular_season.location": {
+			          "Target": {
+			            "Entity": "regular_season.location"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regular_season"
+			            },
+			            "Object": {
+			              "Role": "regular_season.location"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regular_seasons_have_locations"
+			        }
+			      ]
+			    },
+			    "regular_season_has_player_name": {
+			      "Binding": {
+			        "ConceptualEntity": "Regular Season"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regular_season": {
+			          "Target": {
+			            "Entity": "regular_season"
+			          }
+			        },
+			        "regular_season.player_name": {
+			          "Target": {
+			            "Entity": "regular_season.player_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regular_season"
+			            },
+			            "Object": {
+			              "Role": "regular_season.player_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regular_seasons_have_player_names"
+			        },
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "regular_season.player_name"
+			            },
+			            "Verbs": [
+			              {
+			                "play": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "regular_season"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.75,
+			          "ID": "player_names_play_regular_seasons"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regular_season.player_name"
+			            },
+			            "Object": {
+			              "Role": "regular_season"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "player_names_have_regular_seasons"
+			        }
+			      ]
+			    },
+			    "playoff_has_position": {
+			      "Binding": {
+			        "ConceptualEntity": "Playoffs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "playoff": {
+			          "Target": {
+			            "Entity": "playoff"
+			          }
+			        },
+			        "playoff.position": {
+			          "Target": {
+			            "Entity": "playoff.position"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "playoff"
+			            },
+			            "Object": {
+			              "Role": "playoff.position"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "playoffs_have_positions"
+			        }
+			      ]
+			    },
+			    "playoff_has_headshot_url": {
+			      "Binding": {
+			        "ConceptualEntity": "Playoffs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "playoff": {
+			          "Target": {
+			            "Entity": "playoff"
+			          }
+			        },
+			        "playoff.headshot_url": {
+			          "Target": {
+			            "Entity": "playoff.headshot_url"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "playoff"
+			            },
+			            "Object": {
+			              "Role": "playoff.headshot_url"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "playoffs_have_headshot_urls"
+			        }
+			      ]
+			    },
+			    "playoff_has_efficiency": {
+			      "Binding": {
+			        "ConceptualEntity": "Playoffs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "playoff": {
+			          "Target": {
+			            "Entity": "playoff"
+			          }
+			        },
+			        "playoff.efficiency": {
+			          "Target": {
+			            "Entity": "playoff.efficiency"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "playoff"
+			            },
+			            "Object": {
+			              "Role": "playoff.efficiency"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "playoffs_have_efficiencies"
+			        }
+			      ]
+			    },
+			    "playoff_has_plus_minus": {
+			      "Binding": {
+			        "ConceptualEntity": "Playoffs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "playoff": {
+			          "Target": {
+			            "Entity": "playoff"
+			          }
+			        },
+			        "playoff.plus_minus": {
+			          "Target": {
+			            "Entity": "playoff.plus_minus"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "playoff"
+			            },
+			            "Object": {
+			              "Role": "playoff.plus_minus"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "playoffs_have_plus_minus"
+			        }
+			      ]
+			    },
+			    "playoff_has_pt": {
+			      "Binding": {
+			        "ConceptualEntity": "Playoffs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "playoff": {
+			          "Target": {
+			            "Entity": "playoff"
+			          }
+			        },
+			        "playoff.pt": {
+			          "Target": {
+			            "Entity": "playoff.pt"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "playoff"
+			            },
+			            "Object": {
+			              "Role": "playoff.pt"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "playoffs_have_pt"
+			        }
+			      ]
+			    },
+			    "playoff_has_pf": {
+			      "Binding": {
+			        "ConceptualEntity": "Playoffs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "playoff": {
+			          "Target": {
+			            "Entity": "playoff"
+			          }
+			        },
+			        "playoff.pf": {
+			          "Target": {
+			            "Entity": "playoff.pf"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "playoff"
+			            },
+			            "Object": {
+			              "Role": "playoff.pf"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "playoffs_have_pf"
+			        }
+			      ]
+			    },
+			    "playoff_has_BLK_x": {
+			      "Binding": {
+			        "ConceptualEntity": "Playoffs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "playoff": {
+			          "Target": {
+			            "Entity": "playoff"
+			          }
+			        },
+			        "playoff.BLK_x": {
+			          "Target": {
+			            "Entity": "playoff.BLK_x"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "playoff"
+			            },
+			            "Object": {
+			              "Role": "playoff.BLK_x"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "playoffs_have_BLK_x"
+			        }
+			      ]
+			    },
+			    "playoff_has_STL_x": {
+			      "Binding": {
+			        "ConceptualEntity": "Playoffs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "playoff": {
+			          "Target": {
+			            "Entity": "playoff"
+			          }
+			        },
+			        "playoff.STL_x": {
+			          "Target": {
+			            "Entity": "playoff.STL_x"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "playoff"
+			            },
+			            "Object": {
+			              "Role": "playoff.STL_x"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "playoffs_have_STL_x"
+			        }
+			      ]
+			    },
+			    "playoff_has_tov": {
+			      "Binding": {
+			        "ConceptualEntity": "Playoffs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "playoff": {
+			          "Target": {
+			            "Entity": "playoff"
+			          }
+			        },
+			        "playoff.tov": {
+			          "Target": {
+			            "Entity": "playoff.tov"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "playoff"
+			            },
+			            "Object": {
+			              "Role": "playoff.tov"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "playoffs_have_tovs"
+			        }
+			      ]
+			    },
+			    "playoff_has_ast": {
+			      "Binding": {
+			        "ConceptualEntity": "Playoffs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "playoff": {
+			          "Target": {
+			            "Entity": "playoff"
+			          }
+			        },
+			        "playoff.ast": {
+			          "Target": {
+			            "Entity": "playoff.ast"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "playoff"
+			            },
+			            "Object": {
+			              "Role": "playoff.ast"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "playoffs_have_ast"
+			        }
+			      ]
+			    },
+			    "playoff_has_reb": {
+			      "Binding": {
+			        "ConceptualEntity": "Playoffs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "playoff": {
+			          "Target": {
+			            "Entity": "playoff"
+			          }
+			        },
+			        "playoff.reb": {
+			          "Target": {
+			            "Entity": "playoff.reb"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "playoff"
+			            },
+			            "Object": {
+			              "Role": "playoff.reb"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "playoffs_have_rebs"
+			        }
+			      ]
+			    },
+			    "playoff_has_ft_pct": {
+			      "Binding": {
+			        "ConceptualEntity": "Playoffs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "playoff": {
+			          "Target": {
+			            "Entity": "playoff"
+			          }
+			        },
+			        "playoff.ft_pct": {
+			          "Target": {
+			            "Entity": "playoff.ft_pct"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "playoff"
+			            },
+			            "Object": {
+			              "Role": "playoff.ft_pct"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "playoffs_have_ft_pcts"
+			        }
+			      ]
+			    },
+			    "playoff_has_fg_3_pct": {
+			      "Binding": {
+			        "ConceptualEntity": "Playoffs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "playoff": {
+			          "Target": {
+			            "Entity": "playoff"
+			          }
+			        },
+			        "playoff.fg_3_pct": {
+			          "Target": {
+			            "Entity": "playoff.fg_3_pct"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "playoff"
+			            },
+			            "Object": {
+			              "Role": "playoff.fg_3_pct"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "playoffs_have_fg_3_pcts"
+			        }
+			      ]
+			    },
+			    "playoff_has_fg_pct": {
+			      "Binding": {
+			        "ConceptualEntity": "Playoffs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "playoff": {
+			          "Target": {
+			            "Entity": "playoff"
+			          }
+			        },
+			        "playoff.fg_pct": {
+			          "Target": {
+			            "Entity": "playoff.fg_pct"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "playoff"
+			            },
+			            "Object": {
+			              "Role": "playoff.fg_pct"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "playoffs_have_fg_pcts"
+			        }
+			      ]
+			    },
+			    "playoff_has_MIN_x": {
+			      "Binding": {
+			        "ConceptualEntity": "Playoffs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "playoff": {
+			          "Target": {
+			            "Entity": "playoff"
+			          }
+			        },
+			        "playoff.MIN_x": {
+			          "Target": {
+			            "Entity": "playoff.MIN_x"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "playoff"
+			            },
+			            "Object": {
+			              "Role": "playoff.MIN_x"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "playoffs_have_MIN_x"
+			        }
+			      ]
+			    },
+			    "playoff_has_location": {
+			      "Binding": {
+			        "ConceptualEntity": "Playoffs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "playoff": {
+			          "Target": {
+			            "Entity": "playoff"
+			          }
+			        },
+			        "playoff.location": {
+			          "Target": {
+			            "Entity": "playoff.location"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "playoff"
+			            },
+			            "Object": {
+			              "Role": "playoff.location"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "playoffs_have_locations"
+			        }
+			      ]
+			    },
+			    "playoff_has_player_name": {
+			      "Binding": {
+			        "ConceptualEntity": "Playoffs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "playoff": {
+			          "Target": {
+			            "Entity": "playoff"
+			          }
+			        },
+			        "playoff.player_name": {
+			          "Target": {
+			            "Entity": "playoff.player_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "playoff"
+			            },
+			            "Object": {
+			              "Role": "playoff.player_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "playoffs_have_player_names"
+			        },
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "playoff.player_name"
+			            },
+			            "Verbs": [
+			              {
+			                "play": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "playoff"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.75,
+			          "ID": "player_names_play_playoffs"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "playoff.player_name"
+			            },
+			            "Object": {
+			              "Role": "playoff"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "player_names_have_playoffs"
+			        }
+			      ]
+			    },
+			    "regular_season_in_location": {
+			      "Binding": {
+			        "ConceptualEntity": "Regular Season"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regular_season": {
+			          "Target": {
+			            "Entity": "regular_season"
+			          }
+			        },
+			        "regular_season.location": {
+			          "Target": {
+			            "Entity": "regular_season.location"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "regular_season.location"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "regular_season"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "regular_season.location"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regular_seasons_are_in_locations"
+			        }
+			      ]
+			    },
+			    "playoff_in_location": {
+			      "Binding": {
+			        "ConceptualEntity": "Playoffs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "playoff": {
+			          "Target": {
+			            "Entity": "playoff"
+			          }
+			        },
+			        "playoff.location": {
+			          "Target": {
+			            "Entity": "playoff.location"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "playoff.location"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "playoff"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "playoff.location"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "playoffs_are_in_locations"
+			        }
+			      ]
+			    },
+			    "extra_info_has_column_3": {
+			      "Binding": {
+			        "ConceptualEntity": "Extra Info"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "extra_info": {
+			          "Target": {
+			            "Entity": "extra_info"
+			          }
+			        },
+			        "extra_info.column_3": {
+			          "Target": {
+			            "Entity": "extra_info.column_3"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "extra_info"
+			            },
+			            "Object": {
+			              "Role": "extra_info.column_3"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "extra_info_have_column_3"
+			        }
+			      ]
+			    },
+			    "playoff_has_table": {
+			      "Binding": {
+			        "ConceptualEntity": "Playoffs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "playoff": {
+			          "Target": {
+			            "Entity": "playoff"
+			          }
+			        },
+			        "table": {
+			          "Target": {
+			            "Entity": "table"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "playoff"
+			            },
+			            "Object": {
+			              "Role": "table"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "playoffs_have_tables"
+			        }
+			      ]
+			    },
+			    "playoff_has_extra_info": {
+			      "Binding": {
+			        "ConceptualEntity": "Playoffs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "playoff": {
+			          "Target": {
+			            "Entity": "playoff"
+			          }
+			        },
+			        "extra_info": {
+			          "Target": {
+			            "Entity": "extra_info"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "playoff"
+			            },
+			            "Object": {
+			              "Role": "extra_info"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "playoffs_have_extra_info"
+			        }
+			      ]
+			    },
+			    "regular_season_has_table": {
+			      "Binding": {
+			        "ConceptualEntity": "Regular Season"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regular_season": {
+			          "Target": {
+			            "Entity": "regular_season"
+			          }
+			        },
+			        "table": {
+			          "Target": {
+			            "Entity": "table"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regular_season"
+			            },
+			            "Object": {
+			              "Role": "table"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regular_seasons_have_tables"
+			        }
+			      ]
+			    },
+			    "table_has_playoff": {
+			      "Binding": {
+			        "ConceptualEntity": "Table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "table": {
+			          "Target": {
+			            "Entity": "table"
+			          }
+			        },
+			        "playoff": {
+			          "Target": {
+			            "Entity": "playoff"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "table"
+			            },
+			            "Object": {
+			              "Role": "playoff"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tables_have_playoffs"
+			        }
+			      ]
+			    },
+			    "table_has_regular_season": {
+			      "Binding": {
+			        "ConceptualEntity": "Table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "table": {
+			          "Target": {
+			            "Entity": "table"
+			          }
+			        },
+			        "regular_season": {
+			          "Target": {
+			            "Entity": "regular_season"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "table"
+			            },
+			            "Object": {
+			              "Role": "regular_season"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tables_have_regular_seasons"
+			        }
+			      ]
+			    },
+			    "extra_info_has_playoff": {
+			      "Binding": {
+			        "ConceptualEntity": "Extra Info"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "extra_info": {
+			          "Target": {
+			            "Entity": "extra_info"
+			          }
+			        },
+			        "playoff": {
+			          "Target": {
+			            "Entity": "playoff"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "extra_info"
+			            },
+			            "Object": {
+			              "Role": "playoff"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "extra_info_have_playoffs"
+			        }
+			      ]
+			    }
+			  }
 			}
 		contentType: json
 

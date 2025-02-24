@@ -1,0 +1,38 @@
+table 'Shot charts'
+	lineageTag: b4164718-1551-4b0a-9db9-0500e51b7586
+
+	column PLAYER_NAME
+		dataType: string
+		lineageTag: 20e34436-b8ec-4bbb-a4d9-e613ddc8e36f
+		summarizeBy: none
+		sourceColumn: PLAYER_NAME
+
+		annotation SummarizationSetBy = Automatic
+
+	column REG_SHOTCHART
+		dataType: string
+		lineageTag: acfaffdf-0e10-4be5-ab7d-e7c110388e9b
+		summarizeBy: none
+		sourceColumn: REG_SHOTCHART
+
+		annotation SummarizationSetBy = Automatic
+
+	column POST_SHOTCHART
+		dataType: string
+		lineageTag: bfed86e6-7a2a-41e8-bd9c-6010568a6b7c
+		summarizeBy: none
+		sourceColumn: POST_SHOTCHART
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Shot charts' = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("vZZda8IwFIb/ShB2p+3Y5WDsxuGsyoSNDSZeHNvT5miahCRVu1+/tn7AYPUu+QHN875PT3O6Wg3GIAkFm0CeK5MNhgPunLaPcVyQ49UmSlUZf0PKwdS6rmQ8BiHAjhawR0Ppzo7eHTiyjlI7+iRbgaAfNPFGqE1cAsnYcuXax52NiwZy93BvsIi0LJ4NHJ6cqdAvdHKCalGrPLd/wethJ8AhezlWpd8cWcsJ3v5C1QL6+qPBdMfmtEdRs+nUbx7RYYJruGJvemiPZYmSaFliIs8vZrsNPwwd86zgHwMHKrhjS3VAIfwm0R0juIArtn8MEshQslcwWe03C28RwQ1cqDcEKMvZxCBKz8ugRQTvf6F2/dU/H8GsNoRsavYkC79Rdi0puIALtX8A5tUO2FjJlFLPl3IDCr8JTtD++gs4EpsJ3KDxm6RsQMHrn6H99d+aVUlomtOPKFNkS6Os9q1CNbGCqzhDe9fhMkoi9gWWNzeBU55vQx3+b0Bvbw7CB5XdGoQD1P5/hxyVwQWcmD0G1r8=", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [PLAYER_NAME = _t, REG_SHOTCHART = _t, POST_SHOTCHART = _t]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"PLAYER_NAME", type text}, {"REG_SHOTCHART", type text}, {"POST_SHOTCHART", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

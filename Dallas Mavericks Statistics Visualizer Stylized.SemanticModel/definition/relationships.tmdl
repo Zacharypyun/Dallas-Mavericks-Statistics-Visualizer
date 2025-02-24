@@ -10,3 +10,29 @@ relationship AutoDetected_8d81785e-6e00-417a-88ed-57f64423d0f9
 	fromColumn: Table.PLAYER_NAME
 	toColumn: 'Regular Season'.PLAYER_NAME
 
+relationship AutoDetected_19d8cce9-cdaf-4811-aed3-8dab346c3082
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: 'Extra Info'.PLAYER_NAME
+	toColumn: Playoffs.PLAYER_NAME
+
+relationship AutoDetected_6262e2f9-a37f-49cf-9d5b-023687d9e564
+	isActive: false
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: 'Extra Info'.PLAYER_NAME
+	toColumn: 'Regular Season'.PLAYER_NAME
+
+relationship AutoDetected_708ff413-e653-41cd-ac67-fcfe70948f6e
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: 'Shot charts'.PLAYER_NAME
+	toColumn: Playoffs.PLAYER_NAME
+
+relationship AutoDetected_9dceaf45-2f84-461f-be52-b75d19b73c7d
+	isActive: false
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: 'Shot charts'.PLAYER_NAME
+	toColumn: 'Regular Season'.PLAYER_NAME
+
