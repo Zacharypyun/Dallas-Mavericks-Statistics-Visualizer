@@ -1,0 +1,12 @@
+relationship AutoDetected_f35a5fa4-fb7f-4e84-8be7-0e1563d4e4ef
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: Table.PLAYER_NAME
+	toColumn: Playoffs.PLAYER_NAME
+
+relationship AutoDetected_8d81785e-6e00-417a-88ed-57f64423d0f9
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: Table.PLAYER_NAME
+	toColumn: 'Regular Season'.PLAYER_NAME
+

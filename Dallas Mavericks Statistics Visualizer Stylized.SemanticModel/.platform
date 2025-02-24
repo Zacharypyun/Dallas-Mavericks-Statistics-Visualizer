@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Dallas Mavericks Statistics Visualizer Stylized"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "f53d6455-4458-4256-adc1-74c45b8b6832"
+  }
+}

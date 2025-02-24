@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "artifacts": [
+    {
+      "report": {
+        "path": "Dallas Mavericks Statistics Visualizer Stylized.Report"
+      }
+    }
+  ],
+  "settings": {
+    "enableAutoRecovery": false
+  }
+}

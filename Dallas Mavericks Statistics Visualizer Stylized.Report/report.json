@@ -1,0 +1,439 @@
+{
+  "config": "{\"version\":\"5.61\",\"themeCollection\":{\"baseTheme\":{\"name\":\"Blue - Transparent\",\"version\":\"5.45\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":0,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "publicCustomVisuals": [
+    "Animator",
+    "simpleImageEBC4593F96F1425FB3D84C5BF02B5075",
+    "videoPlayer9439BF571F794C09AE8B97BD2199A94C"
+  ],
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "Blue - Transparent",
+            "path": "BaseThemes/Blue - Transparent.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "Blue---Transparent-104254754914705678.svg",
+            "path": "Blue---Transparent-104254754914705678.svg",
+            "type": 100
+          },
+          {
+            "name": "Blue---Transparent-329170057160350567.svg",
+            "path": "Blue---Transparent-329170057160350567.svg",
+            "type": 100
+          },
+          {
+            "name": "Blue---Transparent-594622658647911385.svg",
+            "path": "Blue---Transparent-594622658647911385.svg",
+            "type": 100
+          },
+          {
+            "name": "Blue---Transparent-704257191949740716.svg",
+            "path": "Blue---Transparent-704257191949740716.svg",
+            "type": 100
+          },
+          {
+            "name": "Screenshot_2025-02-23_2228446404498963006471.png",
+            "path": "Screenshot_2025-02-23_2228446404498963006471.png",
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"relationships\":[{\"source\":\"43ffd2989e2243254a62\",\"target\":\"ed892fbc9c8b02c1e0b2\",\"type\":3},{\"source\":\"43ffd2989e2243254a62\",\"target\":\"699e63e6eab269bdb74d\",\"type\":3}]}",
+      "displayName": "Charts",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "499e551476aeee5e138f",
+      "ordinal": 4,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"41e1d5b54bbdb3c3f104\",\"layouts\":[{\"id\":0,\"position\":{\"x\":679.5219123505975,\"y\":8.92430278884462,\"z\":8000,\"width\":154.26294820717132,\"height\":76.49402390438246,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(Playoffs.POSITION)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Playoffs\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"POSITION\"}},\"Function\":3},\"Name\":\"Min(Playoffs.POSITION)\",\"NativeReferenceName\":\"First POSITION\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"15D\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 76.49,
+          "width": 154.26,
+          "x": 679.52,
+          "y": 8.92,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"43ffd2989e2243254a62\",\"layouts\":[{\"id\":0,\"position\":{\"x\":61.19521912350597,\"y\":21.673306772908365,\"z\":4000,\"width\":254.98007968127487,\"height\":86.69322709163346,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Table.PLAYER_NAME\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Table\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"PLAYER_NAME\"},\"Name\":\"Table.PLAYER_NAME\",\"NativeReferenceName\":\"PLAYER_NAME\"}]},\"syncGroup\":{\"groupName\":\"PLAYER_NAME\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Table\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"PLAYER_NAME\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Luka Doncic'\"}}]]}}}]}}}}],\"selection\":[{\"properties\":{\"strictSingleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"items\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"16D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 86.69,
+          "width": 254.98,
+          "x": 61.20,
+          "y": 21.67,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"652ef06d6a0b8d7a3221\",\"layouts\":[{\"id\":0,\"position\":{\"x\":70,\"y\":431.6666666666667,\"z\":3000,\"width\":255,\"height\":251.66666666666669,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Regular Season.PLAYER_NAME\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Regular Season.PTS)\"},{\"queryRef\":\"Sum(Regular Season.REB)\"},{\"queryRef\":\"Sum(Regular Season.AST)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"Regular Season\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"PLAYER_NAME\"},\"Name\":\"Regular Season.PLAYER_NAME\",\"NativeReferenceName\":\"PLAYER_NAME\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"PTS\"}},\"Function\":0},\"Name\":\"Sum(Regular Season.PTS)\",\"NativeReferenceName\":\"Sum of PTS\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"REB\"}},\"Function\":0},\"Name\":\"Sum(Regular Season.REB)\",\"NativeReferenceName\":\"Sum of REB\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"AST\"}},\"Function\":0},\"Name\":\"Sum(Regular Season.AST)\",\"NativeReferenceName\":\"Sum of AST\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"PTS\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 251.67,
+          "width": 255.00,
+          "x": 70.00,
+          "y": 431.67,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"699e63e6eab269bdb74d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":833.7848605577689,\"y\":327.64940239043824,\"z\":0,\"width\":418.1673306772908,\"height\":356.9721115537848,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(Playoffs.MIN_x)\"}],\"Category\":[{\"queryRef\":\"Playoffs.PLAYER_NAME\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Playoffs\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"MIN_x\"}},\"Function\":0},\"Name\":\"Sum(Playoffs.MIN_x)\",\"NativeReferenceName\":\"Sum of MIN_x\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"PLAYER_NAME\"},\"Name\":\"Playoffs.PLAYER_NAME\",\"NativeReferenceName\":\"PLAYER_NAME\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"MIN_x\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"legend\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Players'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Postseason Playing Time'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 356.97,
+          "width": 418.17,
+          "x": 833.78,
+          "y": 327.65,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"7410b4901750106af276\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1046.1919504643963,\"y\":30.381836945304435,\"z\":5000,\"width\":233.80804953560371,\"height\":211.3519091847265,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Playoffs.HEADSHOT_URL\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Playoffs\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"HEADSHOT_URL\"},\"Name\":\"Playoffs.HEADSHOT_URL\",\"NativeReferenceName\":\"HEADSHOT_URL\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"HEADSHOT_URL\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"grid\":[{\"properties\":{\"imageHeight\":{\"expr\":{\"Literal\":{\"Value\":\"200D\"}}},\"gridHorizontal\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"outlineWeight\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}],\"columnHeaders\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 211.35,
+          "width": 233.81,
+          "x": 1046.19,
+          "y": 30.38,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"a615db3874bbfd18073a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":390.1195219123506,\"y\":30.597609561752986,\"z\":6000,\"width\":308.52589641434264,\"height\":211.63346613545815,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"multiRowCard\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Playoffs.PTS)\"},{\"queryRef\":\"Sum(Playoffs.AST)\"},{\"queryRef\":\"Sum(Playoffs.REB)\"},{\"queryRef\":\"Sum(Playoffs.STL_x)\"},{\"queryRef\":\"Sum(Playoffs.BLK_x)\"},{\"queryRef\":\"Sum(Playoffs.FG_PCT)\"},{\"queryRef\":\"Sum(Playoffs.FG3_PCT)\"},{\"queryRef\":\"Sum(Playoffs.FT_PCT)\"},{\"queryRef\":\"Sum(Playoffs.Efficiency)\"},{\"queryRef\":\"Sum(Playoffs.MIN_x)\"},{\"queryRef\":\"Sum(Playoffs.PF)\"},{\"queryRef\":\"Sum(Playoffs.TOV)\"},{\"queryRef\":\"Sum(Playoffs.PLUS_MINUS)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Playoffs\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"AST\"}},\"Function\":0},\"Name\":\"Sum(Playoffs.AST)\",\"NativeReferenceName\":\"Assists\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"BLK_x\"}},\"Function\":0},\"Name\":\"Sum(Playoffs.BLK_x)\",\"NativeReferenceName\":\"Blocks\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Efficiency\"}},\"Function\":0},\"Name\":\"Sum(Playoffs.Efficiency)\",\"NativeReferenceName\":\"Efficiency\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"FG_PCT\"}},\"Function\":0},\"Name\":\"Sum(Playoffs.FG_PCT)\",\"NativeReferenceName\":\"FG%\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"FG3_PCT\"}},\"Function\":0},\"Name\":\"Sum(Playoffs.FG3_PCT)\",\"NativeReferenceName\":\"3PT%\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"FT_PCT\"}},\"Function\":0},\"Name\":\"Sum(Playoffs.FT_PCT)\",\"NativeReferenceName\":\"FT%\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"MIN_x\"}},\"Function\":0},\"Name\":\"Sum(Playoffs.MIN_x)\",\"NativeReferenceName\":\"Minutes Played\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"PF\"}},\"Function\":0},\"Name\":\"Sum(Playoffs.PF)\",\"NativeReferenceName\":\"Fouls\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"PTS\"}},\"Function\":0},\"Name\":\"Sum(Playoffs.PTS)\",\"NativeReferenceName\":\"Points\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"REB\"}},\"Function\":0},\"Name\":\"Sum(Playoffs.REB)\",\"NativeReferenceName\":\"Rebounds\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"STL_x\"}},\"Function\":0},\"Name\":\"Sum(Playoffs.STL_x)\",\"NativeReferenceName\":\"Steals\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"TOV\"}},\"Function\":0},\"Name\":\"Sum(Playoffs.TOV)\",\"NativeReferenceName\":\"Turnovers\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"PLUS_MINUS\"}},\"Function\":0},\"Name\":\"Sum(Playoffs.PLUS_MINUS)\",\"NativeReferenceName\":\"+/-\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"PTS\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(Playoffs.FG_PCT)\":{\"formatString\":\"0%;-0%;0%\",\"displayName\":\"FG%\"},\"Sum(Playoffs.FG3_PCT)\":{\"formatString\":\"0%;-0%;0%\",\"displayName\":\"3PT%\"},\"Sum(Playoffs.FT_PCT)\":{\"formatString\":\"0%;-0%;0%\",\"displayName\":\"FT%\"},\"Sum(Playoffs.AST)\":{\"displayName\":\"Assists\"},\"Sum(Playoffs.BLK_x)\":{\"displayName\":\"Blocks\"},\"Sum(Playoffs.Efficiency)\":{\"displayName\":\"Efficiency\"},\"Sum(Playoffs.MIN_x)\":{\"displayName\":\"Minutes Played\"},\"Sum(Playoffs.PF)\":{\"displayName\":\"Fouls\"},\"Sum(Playoffs.PLUS_MINUS)\":{\"displayName\":\"+/-\"},\"Sum(Playoffs.TOV)\":{\"displayName\":\"Turnovers\"},\"Sum(Playoffs.PTS)\":{\"displayName\":\"Points\"},\"Sum(Playoffs.REB)\":{\"displayName\":\"Rebounds\"},\"Sum(Playoffs.STL_x)\":{\"displayName\":\"Steals\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Postseason Counting Stats'\"}}}}}],\"divider\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 211.63,
+          "width": 308.53,
+          "x": 390.12,
+          "y": 30.60,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"aa71bbcbd399c97e0a9d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":745.816733067729,\"y\":30.597609561752986,\"z\":7000,\"width\":283.0278884462151,\"height\":193.78486055776892,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"multiRowCard\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Regular Season.PTS)\"},{\"queryRef\":\"Sum(Regular Season.AST)\"},{\"queryRef\":\"Sum(Regular Season.REB)\"},{\"queryRef\":\"Sum(Regular Season.STL_x)\"},{\"queryRef\":\"Sum(Regular Season.BLK_x)\"},{\"queryRef\":\"Sum(Regular Season.FG_PCT)\"},{\"queryRef\":\"Sum(Regular Season.FG3_PCT)\"},{\"queryRef\":\"Sum(Regular Season.FT_PCT)\"},{\"queryRef\":\"Sum(Regular Season.Efficiency)\"},{\"queryRef\":\"Sum(Regular Season.MIN_x)\"},{\"queryRef\":\"Sum(Regular Season.PF)\"},{\"queryRef\":\"Sum(Regular Season.TOV)\"},{\"queryRef\":\"Sum(Regular Season.PLUS_MINUS)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"Regular Season\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"AST\"}},\"Function\":0},\"Name\":\"Sum(Regular Season.AST)\",\"NativeReferenceName\":\"Assists\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"BLK_x\"}},\"Function\":0},\"Name\":\"Sum(Regular Season.BLK_x)\",\"NativeReferenceName\":\"Blocks\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Efficiency\"}},\"Function\":0},\"Name\":\"Sum(Regular Season.Efficiency)\",\"NativeReferenceName\":\"Efficiency\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"FG_PCT\"}},\"Function\":0},\"Name\":\"Sum(Regular Season.FG_PCT)\",\"NativeReferenceName\":\"FG%\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"FG3_PCT\"}},\"Function\":0},\"Name\":\"Sum(Regular Season.FG3_PCT)\",\"NativeReferenceName\":\"3PT%\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"FT_PCT\"}},\"Function\":0},\"Name\":\"Sum(Regular Season.FT_PCT)\",\"NativeReferenceName\":\"FT%\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"MIN_x\"}},\"Function\":0},\"Name\":\"Sum(Regular Season.MIN_x)\",\"NativeReferenceName\":\"Minutes Played\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"PF\"}},\"Function\":0},\"Name\":\"Sum(Regular Season.PF)\",\"NativeReferenceName\":\"Fouls\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"PLUS_MINUS\"}},\"Function\":0},\"Name\":\"Sum(Regular Season.PLUS_MINUS)\",\"NativeReferenceName\":\"+/-\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"PTS\"}},\"Function\":0},\"Name\":\"Sum(Regular Season.PTS)\",\"NativeReferenceName\":\"Points\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"STL_x\"}},\"Function\":0},\"Name\":\"Sum(Regular Season.STL_x)\",\"NativeReferenceName\":\"Steals\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"TOV\"}},\"Function\":0},\"Name\":\"Sum(Regular Season.TOV)\",\"NativeReferenceName\":\"Turnovers\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"REB\"}},\"Function\":0},\"Name\":\"Sum(Regular Season.REB)\",\"NativeReferenceName\":\"Rebounds\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"PTS\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(Regular Season.FT_PCT)\":{\"formatString\":\"0%;-0%;0%\",\"displayName\":\"FT%\"},\"Sum(Regular Season.FG3_PCT)\":{\"formatString\":\"0%;-0%;0%\",\"displayName\":\"3PT%\"},\"Sum(Regular Season.FG_PCT)\":{\"formatString\":\"0%;-0%;0%\",\"displayName\":\"FG%\"},\"Sum(Regular Season.PTS)\":{\"displayName\":\"Points\"},\"Sum(Regular Season.AST)\":{\"displayName\":\"Assists\"},\"Sum(Regular Season.REB)\":{\"displayName\":\"Rebounds\"},\"Sum(Regular Season.STL_x)\":{\"displayName\":\"Steals\"},\"Sum(Regular Season.BLK_x)\":{\"displayName\":\"Blocks\"},\"Sum(Regular Season.Efficiency)\":{\"displayName\":\"Efficiency\"},\"Sum(Regular Season.MIN_x)\":{\"displayName\":\"Minutes Played\"},\"Sum(Regular Season.PF)\":{\"displayName\":\"Fouls\"},\"Sum(Regular Season.TOV)\":{\"displayName\":\"Turnovers\"},\"Sum(Regular Season.PLUS_MINUS)\":{\"displayName\":\"+/-\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Regular Season Counting Stats'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 193.78,
+          "width": 283.03,
+          "x": 745.82,
+          "y": 30.60,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"ed892fbc9c8b02c1e0b2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":390.1195219123506,\"y\":327.64940239043824,\"z\":1000,\"width\":427.0916334661354,\"height\":355.69721115537845,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(Regular Season.MIN_x)\"}],\"Category\":[{\"queryRef\":\"Regular Season.PLAYER_NAME\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"Regular Season\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"MIN_x\"}},\"Function\":0},\"Name\":\"Sum(Regular Season.MIN_x)\",\"NativeReferenceName\":\"Regular Season Playing Time Breakdown\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"PLAYER_NAME\"},\"Name\":\"Regular Season.PLAYER_NAME\",\"NativeReferenceName\":\"PLAYER_NAME\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"MIN_x\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(Regular Season.MIN_x)\":{\"displayName\":\"Regular Season Playing Time Breakdown\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"legend\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Players'\"}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'RightCenter'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Regular Season Playing Time'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"heading\":{\"expr\":{\"Literal\":{\"Value\":\"'Heading3'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 355.70,
+          "width": 427.09,
+          "x": 390.12,
+          "y": 327.65,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"fe0e5dc11fe91371e43a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":61.19521912350597,\"y\":167.01195219123505,\"z\":2000,\"width\":254.98007968127487,\"height\":246.05577689243026,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Playoffs.PLAYER_NAME\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Playoffs.PTS)\"},{\"queryRef\":\"Sum(Playoffs.REB)\"},{\"queryRef\":\"Sum(Playoffs.AST)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Playoffs\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"PLAYER_NAME\"},\"Name\":\"Playoffs.PLAYER_NAME\",\"NativeReferenceName\":\"PLAYER_NAME\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"PTS\"}},\"Function\":0},\"Name\":\"Sum(Playoffs.PTS)\",\"NativeReferenceName\":\"Sum of PTS\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"REB\"}},\"Function\":0},\"Name\":\"Sum(Playoffs.REB)\",\"NativeReferenceName\":\"Sum of REB\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"AST\"}},\"Function\":0},\"Name\":\"Sum(Playoffs.AST)\",\"NativeReferenceName\":\"Sum of AST\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"PTS\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{}}}",
+          "filters": "[]",
+          "height": 246.06,
+          "width": 254.98,
+          "x": 61.20,
+          "y": 167.01,
+          "z": 2000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Test",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "7be192ecfc770ba4c994",
+      "ordinal": 5,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"49d5c79db1897b6cfb44\",\"layouts\":[{\"id\":0,\"position\":{\"x\":35.21531100478469,\"y\":427.177033492823,\"z\":3,\"width\":255.69377990430624,\"height\":87.27272727272728,\"tabOrder\":3}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Table.PLAYER_NAME\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Table\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"PLAYER_NAME\"},\"Name\":\"Table.PLAYER_NAME\",\"NativeReferenceName\":\"PLAYER_NAME\"}]},\"syncGroup\":{\"groupName\":\"PLAYER_NAME\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Table\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"PLAYER_NAME\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Luka Doncic'\"}}]]}}}]}}}}],\"selection\":[{\"properties\":{\"strictSingleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"items\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"16D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 87.27,
+          "width": 255.69,
+          "x": 35.22,
+          "y": 427.18,
+          "z": 3.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'Blue---Transparent-1.svg'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Blue---Transparent-104254754914705678.svg\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 658.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"12cee78edefd32212b71\",\"layouts\":[{\"id\":0,\"position\":{\"x\":883.4449760765551,\"y\":378.1818181818182,\"z\":7000,\"width\":154.64114832535887,\"height\":76.55502392344498,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(Playoffs.POSITION)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Playoffs\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"POSITION\"}},\"Function\":3},\"Name\":\"Min(Playoffs.POSITION)\",\"NativeReferenceName\":\"First POSITION\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"15D\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 76.56,
+          "width": 154.64,
+          "x": 883.44,
+          "y": 378.18,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"2f29e8d1f909680f8ffd\",\"layouts\":[{\"id\":0,\"position\":{\"x\":883.4449760765551,\"y\":177.60765550239236,\"z\":6000,\"width\":232.72727272727275,\"height\":192.91866028708137,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"simpleImageEBC4593F96F1425FB3D84C5BF02B5075\",\"projections\":{\"imageURL\":[{\"queryRef\":\"Playoffs.HEADSHOT_URL\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Playoffs\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"HEADSHOT_URL\"},\"Name\":\"Playoffs.HEADSHOT_URL\",\"NativeReferenceName\":\"HEADSHOT_URL\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"HEADSHOT_URL\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{}}}",
+          "filters": "[]",
+          "height": 192.92,
+          "width": 232.73,
+          "x": 883.44,
+          "y": 177.61,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"32f09962b0bc98e7d721\",\"layouts\":[{\"id\":0,\"position\":{\"x\":120.95693779904308,\"y\":125.55023923444978,\"z\":9001,\"width\":307.7511961722488,\"height\":310.8133971291866,\"tabOrder\":9001}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Screenshot_2025-02-23_2228446404498963006471.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 310.81,
+          "width": 307.75,
+          "x": 120.96,
+          "y": 125.55,
+          "z": 9001.00
+        },
+        {
+          "config": "{\"name\":\"52c95ddbc4da89e9cb00\",\"layouts\":[{\"id\":0,\"position\":{\"x\":514.4497607655503,\"y\":125.55023923444978,\"z\":9000,\"width\":307.7511961722488,\"height\":310.8133971291866,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Screenshot_2025-02-23_2228446404498963006471.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 310.81,
+          "width": 307.75,
+          "x": 514.45,
+          "y": 125.55,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"card64085459086213531\",\"layouts\":[{\"id\":0,\"position\":{\"x\":384,\"y\":58,\"z\":1000,\"width\":178,\"height\":85,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"multiRowCard\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Regular Season.REB)\"},{\"queryRef\":\"Sum(Playoffs.REB)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Playoffs\",\"Type\":0},{\"Name\":\"r\",\"Entity\":\"Regular Season\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"REB\"}},\"Function\":0},\"Name\":\"Sum(Playoffs.REB)\",\"NativeReferenceName\":\"Postseason RPG\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"REB\"}},\"Function\":0},\"Name\":\"Sum(Regular Season.REB)\",\"NativeReferenceName\":\"Regular Season RPG\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"REB\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(Playoffs.REB)\":{\"displayName\":\"Postseason RPG\"},\"Sum(Regular Season.REB)\":{\"displayName\":\"Regular Season RPG\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ffffff'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 85.00,
+          "width": 178.00,
+          "x": 384.00,
+          "y": 58.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"card75972212874399195\",\"layouts\":[{\"id\":0,\"position\":{\"x\":97,\"y\":58,\"z\":0,\"width\":178,\"height\":85,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"multiRowCard\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Regular Season.PTS)\"},{\"queryRef\":\"Sum(Playoffs.PTS)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Playoffs\",\"Type\":0},{\"Name\":\"r\",\"Entity\":\"Regular Season\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"PTS\"}},\"Function\":0},\"Name\":\"Sum(Playoffs.PTS)\",\"NativeReferenceName\":\"Playoffs Points PPG\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"PTS\"}},\"Function\":0},\"Name\":\"Sum(Regular Season.PTS)\",\"NativeReferenceName\":\"Regular Season PPG\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"PTS\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(Playoffs.PTS)\":{\"displayName\":\"Playoffs Points PPG\"},\"Sum(Regular Season.PTS)\":{\"displayName\":\"Regular Season PPG\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ffffff'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 85.00,
+          "width": 178.00,
+          "x": 97.00,
+          "y": 58.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"card96598632665376012\",\"layouts\":[{\"id\":0,\"position\":{\"x\":668,\"y\":58,\"z\":2000,\"width\":178,\"height\":85,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"multiRowCard\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Regular Season.AST)\"},{\"queryRef\":\"Sum(Playoffs.AST)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Playoffs\",\"Type\":0},{\"Name\":\"r\",\"Entity\":\"Regular Season\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"AST\"}},\"Function\":0},\"Name\":\"Sum(Playoffs.AST)\",\"NativeReferenceName\":\"Postseason APG\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"AST\"}},\"Function\":0},\"Name\":\"Sum(Regular Season.AST)\",\"NativeReferenceName\":\"Regular Season APG\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"AST\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(Regular Season.AST)\":{\"displayName\":\"Regular Season APG\"},\"Sum(Playoffs.AST)\":{\"displayName\":\"Postseason APG\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ffffff'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 85.00,
+          "width": 178.00,
+          "x": 668.00,
+          "y": 58.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"cd1983368f5fbe4934f6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":935.5023923444977,\"y\":81.14832535885168,\"z\":5000,\"width\":255.69377990430624,\"height\":87.27272727272728,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Table.PLAYER_NAME\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Table\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"PLAYER_NAME\"},\"Name\":\"Table.PLAYER_NAME\",\"NativeReferenceName\":\"PLAYER_NAME\"}]},\"syncGroup\":{\"groupName\":\"PLAYER_NAME\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Table\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"PLAYER_NAME\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Luka Doncic'\"}}]]}}}]}}}}],\"selection\":[{\"properties\":{\"strictSingleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"items\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"16D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 87.27,
+          "width": 255.69,
+          "x": 935.50,
+          "y": 81.15,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"clusteredColumnChart51245260535622557\",\"layouts\":[{\"id\":0,\"position\":{\"x\":120.95693779904308,\"y\":416.4593301435407,\"z\":3000,\"width\":341.43540669856463,\"height\":202.10526315789474,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"gauge\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(Regular Season.FG_PCT)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"Regular Season\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"FG_PCT\"}},\"Function\":0},\"Name\":\"Sum(Regular Season.FG_PCT)\",\"NativeReferenceName\":\"Sum of FG_PCT\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"FG_PCT\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(Regular Season.FG_PCT)\":{\"formatString\":\"0%;-0%;0%\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"axis\":[{\"properties\":{\"min\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"max\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ffffff'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Regular Season FG%'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 202.11,
+          "width": 341.44,
+          "x": 120.96,
+          "y": 416.46,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"lineStackedColumnComboChart73434152803843873\",\"layouts\":[{\"id\":0,\"position\":{\"x\":499.1387559808613,\"y\":416.4593301435407,\"z\":4000,\"width\":346.0287081339713,\"height\":202.10526315789474,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"gauge\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(Playoffs.FG_PCT)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Playoffs\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"FG_PCT\"}},\"Function\":0},\"Name\":\"Sum(Playoffs.FG_PCT)\",\"NativeReferenceName\":\"Sum of FG_PCT\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"FG_PCT\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(Playoffs.FG_PCT)\":{\"formatString\":\"0%;-0%;0%\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"axis\":[{\"properties\":{\"min\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"max\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ffffff'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Postseason FG%'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 202.11,
+          "width": 346.03,
+          "x": 499.14,
+          "y": 416.46,
+          "z": 4000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'Blue---Transparent-3.svg'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Blue---Transparent-329170057160350567.svg\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
+      "displayName": "Page 2",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 658.00,
+      "name": "ReportSection",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"a7c8ad0efe473e00dcb9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":98,\"y\":0,\"width\":480,\"height\":150,\"z\":4001,\"tabOrder\":4001}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"big one is video of highlights, fill in other boxes\",\"textStyle\":{\"fontSize\":\"18pt\",\"color\":\"#fd817e\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 150.00,
+          "width": 480.00,
+          "x": 98.00,
+          "y": 0.00,
+          "z": 4001.00
+        },
+        {
+          "config": "{\"name\":\"card46697265247676166\",\"layouts\":[{\"id\":0,\"position\":{\"x\":578,\"y\":58,\"z\":0,\"width\":176,\"height\":83,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ffffff'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "height": 83.00,
+          "width": 176.00,
+          "x": 578.00,
+          "y": 58.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"card64200368966309753\",\"layouts\":[{\"id\":0,\"position\":{\"x\":821,\"y\":58,\"z\":1000,\"width\":176,\"height\":83,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ffffff'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "height": 83.00,
+          "width": 176.00,
+          "x": 821.00,
+          "y": 58.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"card71944172138169419\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1065,\"y\":58,\"z\":2000,\"width\":176,\"height\":83,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"card\",\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ffffff'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "height": 83.00,
+          "width": 176.00,
+          "x": 1065.00,
+          "y": 58.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"scatterChart86174009216930413\",\"layouts\":[{\"id\":0,\"position\":{\"x\":98,\"y\":171,\"z\":4000,\"width\":750,\"height\":425,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"videoPlayer9439BF571F794C09AE8B97BD2199A94C\",\"autoSelectVisualType\":false,\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ffffff'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 425.00,
+          "width": 750.00,
+          "x": 98.00,
+          "y": 171.00,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"treemap11335047398386550\",\"layouts\":[{\"id\":0,\"position\":{\"x\":876,\"y\":171,\"z\":3000,\"width\":365,\"height\":425,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"treemap\",\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ffffff'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "height": 425.00,
+          "width": 365.00,
+          "x": 876.00,
+          "y": 171.00,
+          "z": 3000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'Blue---Transparent-5.svg'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Blue---Transparent-594622658647911385.svg\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
+      "displayName": "Page 3",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 658.00,
+      "name": "ReportSection",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0dee475c26564962f7a4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":99,\"y\":0,\"width\":357,\"height\":150,\"z\":3001,\"tabOrder\":3001}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"future stat prediction tab\",\"textStyle\":{\"fontSize\":\"16pt\",\"color\":\"#fe9666\"}}]},{\"textRuns\":[{\"value\":\"\"}]}]}}]}}}",
+          "filters": "[]",
+          "height": 150.00,
+          "width": 357.00,
+          "x": 99.00,
+          "y": 0.00,
+          "z": 3001.00
+        },
+        {
+          "config": "{\"name\":\"cardVisual94301904788073478\",\"layouts\":[{\"id\":0,\"position\":{\"x\":492,\"y\":58,\"z\":2000,\"width\":747,\"height\":84,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ffffff'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "height": 84.00,
+          "width": 747.00,
+          "x": 492.00,
+          "y": 58.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"columnChart01313392438154020\",\"layouts\":[{\"id\":0,\"position\":{\"x\":99,\"y\":179,\"z\":0,\"width\":357,\"height\":422,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ffffff'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "height": 422.00,
+          "width": 357.00,
+          "x": 99.00,
+          "y": 179.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"donutChart01350388592855262\",\"layouts\":[{\"id\":0,\"position\":{\"x\":491,\"y\":179,\"z\":1000,\"width\":357,\"height\":422,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ffffff'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "height": 422.00,
+          "width": 357.00,
+          "x": 491.00,
+          "y": 179.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"treemap84124088173695909\",\"layouts\":[{\"id\":0,\"position\":{\"x\":882,\"y\":179,\"z\":3000,\"width\":358,\"height\":422,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"treemap\",\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ffffff'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "height": 422.00,
+          "width": 358.00,
+          "x": 882.00,
+          "y": 179.00,
+          "z": 3000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'Blue---Transparent-7.svg'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Blue---Transparent-704257191949740716.svg\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
+      "displayName": "Page 4",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 658.00,
+      "name": "ReportSection",
+      "ordinal": 3,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"lineStackedColumnComboChart37672708308285426\",\"layouts\":[{\"id\":0,\"position\":{\"x\":486,\"y\":58,\"z\":1000,\"width\":360,\"height\":326,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Playoffs.PLAYER_NAME\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Playoffs.MIN_x)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Playoffs\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"PLAYER_NAME\"},\"Name\":\"Playoffs.PLAYER_NAME\",\"NativeReferenceName\":\"PLAYER_NAME\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"MIN_x\"}},\"Function\":0},\"Name\":\"Sum(Playoffs.MIN_x)\",\"NativeReferenceName\":\"Sum of MIN_x\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"MIN_x\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ffffff'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 326.00,
+          "width": 360.00,
+          "x": 486.00,
+          "y": 58.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"lineStackedColumnComboChart44013137098127396\",\"layouts\":[{\"id\":0,\"position\":{\"x\":98,\"y\":58,\"z\":0,\"width\":360,\"height\":326,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Playoffs.PLAYER_NAME\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Regular Season.MIN_x)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Playoffs\",\"Type\":0},{\"Name\":\"r\",\"Entity\":\"Regular Season\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"PLAYER_NAME\"},\"Name\":\"Playoffs.PLAYER_NAME\",\"NativeReferenceName\":\"PLAYER_NAME\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"MIN_x\"}},\"Function\":0},\"Name\":\"Sum(Regular Season.MIN_x)\",\"NativeReferenceName\":\"Sum of MIN_x\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"MIN_x\"}},\"Function\":0}}}]},\"autoSelectVisualType\":false,\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ffffff'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 326.00,
+          "width": 360.00,
+          "x": 98.00,
+          "y": 58.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"scatterChart83737817605541064\",\"layouts\":[{\"id\":0,\"position\":{\"x\":877,\"y\":58,\"z\":3000,\"width\":363,\"height\":537,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Playoffs.PLAYER_NAME\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Playoffs.PLUS_MINUS)\"},{\"queryRef\":\"Sum(Regular Season.PLUS_MINUS)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Playoffs\",\"Type\":0},{\"Name\":\"r\",\"Entity\":\"Regular Season\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"PLAYER_NAME\"},\"Name\":\"Playoffs.PLAYER_NAME\",\"NativeReferenceName\":\"PLAYER_NAME\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"PLUS_MINUS\"}},\"Function\":0},\"Name\":\"Sum(Playoffs.PLUS_MINUS)\",\"NativeReferenceName\":\"Sum of PLUS_MINUS\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"PLUS_MINUS\"}},\"Function\":0},\"Name\":\"Sum(Regular Season.PLUS_MINUS)\",\"NativeReferenceName\":\"Sum of PLUS_MINUS1\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"PLUS_MINUS\"}},\"Function\":0}}}]},\"autoSelectVisualType\":false,\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ffffff'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 537.00,
+          "width": 363.00,
+          "x": 877.00,
+          "y": 58.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"tableEx81827061424366471\",\"layouts\":[{\"id\":0,\"position\":{\"x\":98,\"y\":416,\"z\":2000,\"width\":748,\"height\":179,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"ribbonChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Playoffs.PLAYER_NAME\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Playoffs.Efficiency)\"},{\"queryRef\":\"Sum(Playoffs.PTS)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Playoffs\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"PLAYER_NAME\"},\"Name\":\"Playoffs.PLAYER_NAME\",\"NativeReferenceName\":\"PLAYER_NAME\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Efficiency\"}},\"Function\":0},\"Name\":\"Sum(Playoffs.Efficiency)\",\"NativeReferenceName\":\"Sum of Efficiency\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"PTS\"}},\"Function\":0},\"Name\":\"Sum(Playoffs.PTS)\",\"NativeReferenceName\":\"Sum of PTS\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Efficiency\"}},\"Function\":0}}}]},\"autoSelectVisualType\":false,\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ffffff'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 179.00,
+          "width": 748.00,
+          "x": 98.00,
+          "y": 416.00,
+          "z": 2000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

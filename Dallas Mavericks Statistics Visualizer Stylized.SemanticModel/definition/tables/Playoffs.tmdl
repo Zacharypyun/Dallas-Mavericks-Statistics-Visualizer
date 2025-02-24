@@ -1,0 +1,179 @@
+table Playoffs
+	lineageTag: 0391086c-0836-48b0-9f44-b9296ca6c8c5
+
+	column PLAYER_NAME
+		dataType: string
+		lineageTag: 757220c8-d475-4ec5-8830-cb17b74b9ca5
+		summarizeBy: none
+		sourceColumn: PLAYER_NAME
+
+		annotation SummarizationSetBy = Automatic
+
+	column LOCATION
+		dataType: string
+		lineageTag: 48ce5144-34a9-4131-940a-198fa137ff4b
+		summarizeBy: none
+		sourceColumn: LOCATION
+
+		annotation SummarizationSetBy = Automatic
+
+	column MIN_x
+		dataType: double
+		lineageTag: c89e85fe-c4c8-4f8e-88c7-21cdcfb5a402
+		summarizeBy: sum
+		sourceColumn: MIN_x
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column FG_PCT
+		dataType: double
+		lineageTag: bfe9a511-9ce9-4109-bb2a-39a7834439e3
+		summarizeBy: sum
+		sourceColumn: FG_PCT
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column FG3_PCT
+		dataType: double
+		lineageTag: 3a4bedfb-c289-4d78-a230-ad247ebb6046
+		summarizeBy: sum
+		sourceColumn: FG3_PCT
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column FT_PCT
+		dataType: double
+		lineageTag: 59fd27da-5155-4907-ac93-799fe966df6c
+		summarizeBy: sum
+		sourceColumn: FT_PCT
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column REB
+		dataType: double
+		lineageTag: 3d9f9130-ca2d-4856-a9a2-dd1da0f52469
+		summarizeBy: sum
+		sourceColumn: REB
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column AST
+		dataType: double
+		lineageTag: e59c2305-ca40-4bf2-9a4c-a87f7392c384
+		summarizeBy: sum
+		sourceColumn: AST
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column TOV
+		dataType: double
+		lineageTag: 6af23d2a-0928-461a-9d66-ac3b29302b7e
+		summarizeBy: sum
+		sourceColumn: TOV
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column STL_x
+		dataType: double
+		lineageTag: 2104a6a4-6ddc-4d48-ab16-5821f969a0f8
+		summarizeBy: sum
+		sourceColumn: STL_x
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column BLK_x
+		dataType: double
+		lineageTag: 7b40c65d-933f-4129-93dc-b0b833473d46
+		summarizeBy: sum
+		sourceColumn: BLK_x
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column PF
+		dataType: double
+		lineageTag: d6217547-7d34-451e-8d8a-6838df3eef72
+		summarizeBy: sum
+		sourceColumn: PF
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column PTS
+		dataType: double
+		lineageTag: 75d1de30-96b0-47bb-8577-ffb6b8cc2b62
+		summarizeBy: sum
+		sourceColumn: PTS
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column PLUS_MINUS
+		dataType: double
+		lineageTag: fff42041-e8ff-4f4d-88f3-05edd859f22f
+		summarizeBy: sum
+		sourceColumn: PLUS_MINUS
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Efficiency
+		dataType: double
+		lineageTag: f3cbf79e-6c94-40fe-acc9-76c9a0b8abad
+		summarizeBy: sum
+		sourceColumn: Efficiency
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column HEADSHOT_URL
+		dataType: string
+		lineageTag: 896dd17b-561a-48cd-8891-0318394f8445
+		dataCategory: ImageUrl
+		summarizeBy: none
+		sourceColumn: HEADSHOT_URL
+
+		annotation SummarizationSetBy = Automatic
+
+	column POSITION
+		dataType: string
+		lineageTag: 8741f756-2022-4069-9345-7209393a996c
+		summarizeBy: none
+		sourceColumn: POSITION
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Playoffs = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("pVZNU9swFPwrmpyJoi9Lcm+dQikhnTJtpz0wHEwiiAfHZmxDyL+volWwDeTiHuJnPcuTXb3d93x9PTnNytwV5Dy7u6vq1eRk8uPP2c/Pi4W/E4wK5SOjOoRwq/a3CU0SPLAhWB2CMD5wmoSrkT5Ymu5XU0FZus8KrNdt+9h8ms2Wq5KWtxldVpvZ2mWrZl21zcxnZkXWuqadcabYi9FsxrVIdZLQx/Lev//Fla2rJzcnAX/ryNnL02aAXVML6CJF4CHgahESg0fYyBEYiKk9eoHV1PMEs5HgBZNpYiL2qyovW3L+lPnTDgRc7ZYPZJE/u2JHLi6GJfD/CQJmgG4fDEByUOQdbAacAg8MqqMiB4XsmAooboT+oAKurnPPYF6VriHzmg4ZpBQHqyAVyTsGEsEzAGwrUJc+h7AjjfJBkkeljVKRsVZFDr82WVGQr1W9fa3FNr9ft+Sq2rqiGNDwUAGO2Vcr8AgUDyKHGHrbNAqodMxwvDhORjJ9X4B5tnIl+eZJ7N54wNjOlx5vtAL0hIVFkHGH7lDbIJrgmylHjIcw5twlM0wczn1dVW1e3vdMMK+aNTmvnSsHDLilHHBlPMSOj0AP4gdPyMjLdG7mSCrIJiY1qI0jwa04Kp7LXZ07clE/52FDTzspTU1PA1QiBENKwEkATgDxkJSAMYTAnriVpzD2GB0JbfnxYiyeHjJyWpXLfDngobxcbOfe4ZGnSFo4VR0Ma3uMY8WEPXQkFUQVPTNuJjCRHumr37OXnFwW7ta7ZKApPxpkvyOpzswcZkaLkrZv6NC3/GxTqNmh5SpqRw80q3Q3FLauHqjpR5E/566eehquXDpyVVfN4xsqfpq+tplDcwFY+SZ9+E1Fp7yRI0AnRzFf0Tklf7Nm7fXUVkMry4RqaCE2UmCkCQ+eTCAXhVOO+jKy05eEJTjmMt/z3s+y/1GOPErkd74J/TTbZrt3E81/xMSWLuJnDw49Kj421ujx+FURVwxtwEA5Iek/jTAK03FU/FBIGP+4Kd38Aw==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [PLAYER_NAME = _t, LOCATION = _t, MIN_x = _t, FG_PCT = _t, FG3_PCT = _t, FT_PCT = _t, REB = _t, AST = _t, TOV = _t, STL_x = _t, BLK_x = _t, PF = _t, PTS = _t, PLUS_MINUS = _t, Efficiency = _t, HEADSHOT_URL = _t, POSITION = _t]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"PLAYER_NAME", type text}, {"LOCATION", type text}, {"MIN_x", type number}, {"FG_PCT", type number}, {"FG3_PCT", type number}, {"FT_PCT", type number}, {"REB", type number}, {"AST", type number}, {"TOV", type number}, {"STL_x", type number}, {"BLK_x", type number}, {"PF", type number}, {"PTS", type number}, {"PLUS_MINUS", type number}, {"Efficiency", type number}, {"HEADSHOT_URL", type text}, {"POSITION", type text}})
+				in
+				    #"Changed Type"
+
+	changedProperty = Name
+
+	annotation PBI_ResultType = Table
+
